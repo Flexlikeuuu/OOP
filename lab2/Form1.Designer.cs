@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             comboBoxFigures = new ComboBox();
-            checkBoxOnFilling = new CheckBox();
             buttonFilling = new Button();
             colorDialog1 = new ColorDialog();
             colorDialog2 = new ColorDialog();
@@ -59,23 +58,12 @@
             comboBoxFigures.Name = "comboBoxFigures";
             comboBoxFigures.Size = new Size(180, 28);
             comboBoxFigures.TabIndex = 0;
-            comboBoxFigures.SelectedIndex = 0;
-            // 
-            // checkBoxOnFilling
-            // 
-            checkBoxOnFilling.AutoSize = true;
-            checkBoxOnFilling.Location = new Point(530, 16);
-            checkBoxOnFilling.Name = "checkBoxOnFilling";
-            checkBoxOnFilling.Size = new Size(87, 24);
-            checkBoxOnFilling.TabIndex = 1;
-            checkBoxOnFilling.Text = "Заливка";
-            checkBoxOnFilling.UseVisualStyleBackColor = true;
             // 
             // buttonFilling
             // 
             buttonFilling.BackColor = Color.White;
             buttonFilling.FlatStyle = FlatStyle.Flat;
-            buttonFilling.Location = new Point(637, 13);
+            buttonFilling.Location = new Point(549, 13);
             buttonFilling.Name = "buttonFilling";
             buttonFilling.Size = new Size(120, 30);
             buttonFilling.TabIndex = 2;
@@ -146,7 +134,6 @@
             comboBoxLines.Name = "comboBoxLines";
             comboBoxLines.Size = new Size(180, 28);
             comboBoxLines.TabIndex = 8;
-            comboBoxLines.SelectedIndex = 0;
             // 
             // pictureBoxDrawing
             // 
@@ -207,7 +194,6 @@
             Controls.Add(trackBarThickness);
             Controls.Add(buttonColor);
             Controls.Add(buttonFilling);
-            Controls.Add(checkBoxOnFilling);
             Controls.Add(comboBoxFigures);
             Controls.Add(toolStrip1);
             MinimumSize = new Size(800, 500);
@@ -225,7 +211,6 @@
         #endregion
 
         private ComboBox comboBoxFigures;
-        private CheckBox checkBoxOnFilling;
         private Button buttonFilling;
         private ColorDialog colorDialog1;
         private ColorDialog colorDialog2;

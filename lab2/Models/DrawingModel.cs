@@ -20,7 +20,7 @@ namespace lab2.Models
         public void AddShape(IShape shape)
         {
             shape.StrokeColor = StrokeColor;
-            shape.FillColor = IsFilling ? FillColor : Color.Transparent;
+            shape.FillColor = FillColor; 
             shape.StrokeWidth = StrokeWidth;
             shape.LineStyle = LineStyle;
             _shapes.Push(shape);

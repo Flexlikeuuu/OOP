@@ -8,7 +8,6 @@ namespace lab2.Interfaces
         PictureBox PictureBox { get; }
         ComboBox FiguresComboBox { get; }
         ComboBox LinesComboBox { get; }
-        CheckBox FillCheckBox { get; }
         Button ColorButton { get; }
         Button FillButton { get; }
         TrackBar ThicknessTrackBar { get; }

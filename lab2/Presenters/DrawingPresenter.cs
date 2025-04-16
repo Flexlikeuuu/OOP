@@ -45,7 +45,6 @@ namespace lab2.Presenters
         private void InitializeView()
         {
             _view.ThicknessTrackBar.Value = (int)_model.StrokeWidth;
-            _view.FillCheckBox.Checked = _model.IsFilling;
             _view.ThicknessLabel.Text = $"Толщина: {_model.StrokeWidth} px";
             _view.ColorButton.BackColor = _model.StrokeColor;
             _view.FillButton.BackColor = _model.FillColor;
@@ -140,11 +139,12 @@ namespace lab2.Presenters
 
             if (_isDrawing && _currentShape != null)
             {
-                using (var pen = new Pen(_model.StrokeColor, _model.StrokeWidth))
-                {
-                    pen.DashStyle = _model.LineStyle;
-                    _currentShape.Draw(e.Graphics);
-                }
+                _currentShape.StrokeColor = _model.StrokeColor;
+                _currentShape.FillColor = _model.FillColor; 
+                _currentShape.StrokeWidth = _model.StrokeWidth;
+                _currentShape.LineStyle = _model.LineStyle;
+
+                _currentShape.Draw(e.Graphics);
             }
         }
 

@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\drawingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\drawingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\presenters\\drawingpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\presenters\\drawingpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\interfaces\\idrawingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\interfaces\\idrawingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\polylineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\polylineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\polygonshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\polygonshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\lineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\lineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\baseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +51,16 @@
       "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\interfaces\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\interfaces\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\interfaces\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\interfaces\\idrawingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\interfaces\\idrawingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\enums\\linestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,34 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\polygonshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\polygonshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\polylineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\polylineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\ellipseshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\rectangleshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\models\\shapes\\lineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\models\\shapes\\lineshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\interfaces\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\interfaces\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|c:\\users\\kiril\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\lab2\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A5D0BA6-0F14-432D-A3EC-E68BA1826BD5}|lab2\\lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,179 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DrawingPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Presenters\\DrawingPresenter.cs",
-              "RelativeDocumentMoniker": "lab2\\Presenters\\DrawingPresenter.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Presenters\\DrawingPresenter.cs",
-              "RelativeToolTip": "lab2\\Presenters\\DrawingPresenter.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAALoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:29:20.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs",
-              "RelativeDocumentMoniker": "lab2\\Form1.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "lab2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:54:24.659Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs",
-              "RelativeDocumentMoniker": "lab2\\Form1.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs*",
-              "RelativeToolTip": "lab2\\Form1.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAxwAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:06:08.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IDrawingView.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IDrawingView.cs",
-              "RelativeDocumentMoniker": "lab2\\Interfaces\\IDrawingView.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IDrawingView.cs",
-              "RelativeToolTip": "lab2\\Interfaces\\IDrawingView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:23:40.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LineStyle.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Enums\\LineStyle.cs",
-              "RelativeDocumentMoniker": "lab2\\Enums\\LineStyle.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Enums\\LineStyle.cs",
-              "RelativeToolTip": "lab2\\Enums\\LineStyle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:24:35.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "lab2\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.Designer.cs",
-              "RelativeToolTip": "lab2\\Form1.Designer.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAowJQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:09:59.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseShape.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\BaseShape.cs",
-              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\BaseShape.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\BaseShape.cs",
-              "RelativeToolTip": "lab2\\Models\\Shapes\\BaseShape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvyIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:26:29.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IShape.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IShape.cs",
-              "RelativeDocumentMoniker": "lab2\\Interfaces\\IShape.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IShape.cs",
-              "RelativeToolTip": "lab2\\Interfaces\\IShape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:23:22.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DrawingModel.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\DrawingModel.cs",
-              "RelativeDocumentMoniker": "lab2\\Models\\DrawingModel.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\DrawingModel.cs",
-              "RelativeToolTip": "lab2\\Models\\DrawingModel.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwDsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:28:32.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "lab2",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\lab2.csproj",
-              "RelativeDocumentMoniker": "lab2\\lab2.csproj",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\lab2.csproj",
-              "RelativeToolTip": "lab2\\lab2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T09:22:14.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PolygonShape.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolygonShape.cs",
-              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\PolygonShape.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolygonShape.cs",
-              "RelativeToolTip": "lab2\\Models\\Shapes\\PolygonShape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:28:16.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PolylineShape.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolylineShape.cs",
-              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\PolylineShape.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolylineShape.cs",
-              "RelativeToolTip": "lab2\\Models\\Shapes\\PolylineShape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:28:02.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EllipseShape.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\EllipseShape.cs",
-              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\EllipseShape.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\EllipseShape.cs",
-              "RelativeToolTip": "lab2\\Models\\Shapes\\EllipseShape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:27:43.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "RectangleShape.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\RectangleShape.cs",
               "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\RectangleShape.cs",
@@ -263,20 +95,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LineShape.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\LineShape.cs",
-              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\LineShape.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\LineShape.cs",
-              "RelativeToolTip": "lab2\\Models\\Shapes\\LineShape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DrawingModel.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\DrawingModel.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\DrawingModel.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\DrawingModel.cs*",
+              "RelativeToolTip": "lab2\\Models\\DrawingModel.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:27:01.383Z",
+              "WhenOpened": "2025-04-06T09:28:32.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
+              "Title": "DrawingPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Presenters\\DrawingPresenter.cs",
+              "RelativeDocumentMoniker": "lab2\\Presenters\\DrawingPresenter.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Presenters\\DrawingPresenter.cs*",
+              "RelativeToolTip": "lab2\\Presenters\\DrawingPresenter.cs*",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:29:20.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PolylineShape.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolylineShape.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\PolylineShape.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolylineShape.cs",
+              "RelativeToolTip": "lab2\\Models\\Shapes\\PolylineShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:28:02.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PolygonShape.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolygonShape.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\PolygonShape.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\PolygonShape.cs",
+              "RelativeToolTip": "lab2\\Models\\Shapes\\PolygonShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:28:16.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs",
+              "RelativeDocumentMoniker": "lab2\\Form1.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "lab2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:54:24.659Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs",
+              "RelativeDocumentMoniker": "lab2\\Form1.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.cs",
+              "RelativeToolTip": "lab2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:06:08.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDrawingView.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IDrawingView.cs",
+              "RelativeDocumentMoniker": "lab2\\Interfaces\\IDrawingView.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IDrawingView.cs",
+              "RelativeToolTip": "lab2\\Interfaces\\IDrawingView.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:23:40.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseShape.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\BaseShape.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\BaseShape.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\BaseShape.cs",
+              "RelativeToolTip": "lab2\\Models\\Shapes\\BaseShape.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:26:29.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IShape.cs",
+              "RelativeDocumentMoniker": "lab2\\Interfaces\\IShape.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IShape.cs",
+              "RelativeToolTip": "lab2\\Interfaces\\IShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:23:22.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IDrawable.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Interfaces\\IDrawable.cs",
               "RelativeDocumentMoniker": "lab2\\Interfaces\\IDrawable.cs",
@@ -289,7 +224,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
+              "Title": "EllipseShape.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\EllipseShape.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\EllipseShape.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\EllipseShape.cs",
+              "RelativeToolTip": "lab2\\Models\\Shapes\\EllipseShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:27:43.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LineShape.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\LineShape.cs",
+              "RelativeDocumentMoniker": "lab2\\Models\\Shapes\\LineShape.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Models\\Shapes\\LineShape.cs",
+              "RelativeToolTip": "lab2\\Models\\Shapes\\LineShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:27:01.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "lab2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Form1.Designer.cs",
+              "RelativeToolTip": "lab2\\Form1.Designer.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAtwN4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:09:59.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Program.cs",
               "RelativeDocumentMoniker": "lab2\\Program.cs",
@@ -297,8 +271,31 @@
               "RelativeToolTip": "lab2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:01:08.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T09:01:08.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LineStyle.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Enums\\LineStyle.cs",
+              "RelativeDocumentMoniker": "lab2\\Enums\\LineStyle.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\Enums\\LineStyle.cs",
+              "RelativeToolTip": "lab2\\Enums\\LineStyle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:24:35.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "lab2.csproj",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\lab2.csproj",
+              "RelativeDocumentMoniker": "lab2\\lab2.csproj",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\lab2\\lab2\\lab2\\lab2.csproj",
+              "RelativeToolTip": "lab2\\lab2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T09:22:14.081Z"
             }
           ]
         }

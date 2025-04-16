@@ -34,11 +34,9 @@ namespace lab2
             lblThickness.Text = $"Толщина: {trackBarThickness.Value} px";
         }
 
-        // Реализация интерфейса IDrawingView
         public PictureBox PictureBox => pictureBoxDrawing;
         public ComboBox FiguresComboBox => comboBoxFigures;
         public ComboBox LinesComboBox => comboBoxLines;
-        public CheckBox FillCheckBox => checkBoxOnFilling;
         public Button ColorButton => buttonColor;
         public Button FillButton => buttonFilling;
         public TrackBar ThicknessTrackBar => trackBarThickness;
