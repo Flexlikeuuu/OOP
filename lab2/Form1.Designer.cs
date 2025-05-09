@@ -53,7 +53,6 @@
             // 
             comboBoxFigures.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxFigures.FormattingEnabled = true;
-            comboBoxFigures.Items.AddRange(new object[] { "Линия", "Прямоугольник", "Эллипс", "Многоугольник", "Ломаная" });
             comboBoxFigures.Location = new Point(12, 12);
             comboBoxFigures.Name = "comboBoxFigures";
             comboBoxFigures.Size = new Size(180, 28);

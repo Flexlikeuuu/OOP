@@ -12,6 +12,15 @@ namespace lab2
         {
             InitializeComponent();
 
+            comboBoxFigures.Items.AddRange(new object[]
+            {
+        "Линия",
+        "Прямоугольник",
+        "Эллипс",
+        "Многоугольник",
+        "Ломаная"
+            });
+
             comboBoxFigures.SelectedIndex = 0;
             comboBoxLines.SelectedIndex = 0;
 

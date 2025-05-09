@@ -20,5 +20,13 @@ namespace lab2.Models.Shapes
                 }
             }
         }
+        private Rectangle GetBoundingRectangle()
+        {
+            return new Rectangle(
+                Math.Min(StartPoint.X, EndPoint.X),
+                Math.Min(StartPoint.Y, EndPoint.Y),
+                Math.Abs(EndPoint.X - StartPoint.X),
+                Math.Abs(EndPoint.Y - StartPoint.Y));
+        }
     }
 }

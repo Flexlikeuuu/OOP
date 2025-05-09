@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using lab2.Enums;
+using lab2.Factories;
 using lab2.Interfaces;
 using lab2.Models;
 using lab2.Models.Shapes;
@@ -13,6 +14,7 @@ namespace lab2.Presenters
     {
         private readonly IDrawingView _view;
         private readonly DrawingModel _model;
+        private readonly IShapeFactory _shapeFactory;
         private IShape _currentShape;
         private bool _isDrawing;
         private Point _startPoint;
@@ -21,10 +23,22 @@ namespace lab2.Presenters
         {
             _view = view;
             _model = new DrawingModel();
+            _shapeFactory = new ShapeFactory();
+
+            RegisterShapes(); 
 
             SubscribeEvents();
             InitializeView();
         }
+        private void RegisterShapes()
+        {
+            _shapeFactory.RegisterShape("Линия", () => new LineShape());
+            _shapeFactory.RegisterShape("Прямоугольник", () => new RectangleShape());
+            _shapeFactory.RegisterShape("Эллипс", () => new EllipseShape());
+            _shapeFactory.RegisterShape("Многоугольник", () => new PolygonShape());
+            _shapeFactory.RegisterShape("Ломаная", () => new PolylineShape());
+        }
+
 
         private void SubscribeEvents()
         {
@@ -77,39 +91,69 @@ namespace lab2.Presenters
 
         private void PictureBox_MouseDown(object sender, MouseEventArgs e)
         {
-            _isDrawing = true;
-            _startPoint = e.Location;
-            _currentShape = CreateShape();
-            _currentShape.StartPoint = e.Location;
-            _currentShape.EndPoint = e.Location;
-            _currentShape.LineStyle = _model.LineStyle;
+            if (e.Button == MouseButtons.Left)
+            {
+                if (!_isDrawing)
+                {
+                    _isDrawing = true;
+                    _startPoint = e.Location;
+                    _currentShape = CreateShape();
+                    _currentShape.StartPoint = e.Location;
+                    _currentShape.EndPoint = e.Location;
+                    _currentShape.LineStyle = _model.LineStyle;
+
+                    if (_currentShape is PolylineShape polyline)
+                    {
+                        polyline.Points.Add(e.Location);
+                    }
+                    else if (_currentShape is PolygonShape polygon)
+                    {
+                        polygon.Points.Add(e.Location);
+                    }
+                }
+                else if (_isDrawing && _currentShape != null)
+                {
+                    if (_currentShape is PolylineShape polyline)
+                    {
+                        polyline.Points.Add(e.Location);
+                    }
+                    else if (_currentShape is PolygonShape polygon)
+                    {
+                        polygon.Points.Add(e.Location);
+                    }
+                    else
+                    {
+                        _currentShape.EndPoint = e.Location;
+                    }
+                }
+            }
+            else if (e.Button == MouseButtons.Right && _isDrawing && _currentShape != null)
+            {
+                _isDrawing = false;
+
+                if (_currentShape is PolygonShape polygon && polygon.Points.Count > 2)
+                {
+                    polygon.Points.Add(polygon.Points[0]);
+                }
+
+                _model.AddShape(_currentShape);
+                _currentShape = null;
+            }
+
+            _view.PictureBox.Invalidate();
         }
 
         private IShape CreateShape()
         {
-            switch (_view.FiguresComboBox.SelectedItem?.ToString())
-            {
-                case "Прямоугольник": return new RectangleShape();
-                case "Эллипс": return new EllipseShape();
-                case "Многоугольник": return new PolygonShape();
-                case "Ломаная": return new PolylineShape();
-                default: return new LineShape();
-            }
+            string selectedShape = _view.FiguresComboBox.SelectedItem?.ToString();
+            return _shapeFactory.CreateShape(selectedShape ?? "Линия");
         }
 
         private void PictureBox_MouseMove(object sender, MouseEventArgs e)
         {
             if (!_isDrawing || _currentShape == null) return;
 
-            if (_currentShape is PolylineShape polyline)
-            {
-                polyline.Points.Add(e.Location);
-            }
-            else if (_currentShape is PolygonShape polygon)
-            {
-                polygon.Points.Add(e.Location);
-            }
-            else
+                        if (!(_currentShape is PolylineShape) && !(_currentShape is PolygonShape))
             {
                 _currentShape.EndPoint = e.Location;
             }
@@ -119,18 +163,18 @@ namespace lab2.Presenters
 
         private void PictureBox_MouseUp(object sender, MouseEventArgs e)
         {
-            if (!_isDrawing || _currentShape == null) return;
-
-            _isDrawing = false;
-
-            if (_currentShape is PolygonShape polygon && polygon.Points.Count > 2)
+            
+            if (!(_currentShape is PolylineShape) && !(_currentShape is PolygonShape))
             {
-                polygon.Points.Add(polygon.Points[0]);
+                if (_isDrawing && _currentShape != null)
+                {
+                    _isDrawing = false;
+                    _currentShape.EndPoint = e.Location;
+                    _model.AddShape(_currentShape);
+                    _currentShape = null;
+                    _view.PictureBox.Invalidate();
+                }
             }
-
-            _model.AddShape(_currentShape);
-            _currentShape = null;
-            _view.PictureBox.Invalidate();
         }
 
         private void PictureBox_Paint(object sender, PaintEventArgs e)
