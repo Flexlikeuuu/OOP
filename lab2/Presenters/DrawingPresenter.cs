@@ -7,6 +7,7 @@ using lab2.Factories;
 using lab2.Interfaces;
 using lab2.Models;
 using lab2.Models.Shapes;
+using Newtonsoft.Json;
 
 namespace lab2.Presenters
 {
@@ -54,6 +55,33 @@ namespace lab2.Presenters
             _view.ClearButton.Click += ClearButton_Click;
             _view.ThicknessTrackBar.Scroll += ThicknessTrackBar_Scroll;
             _view.LinesComboBox.SelectedIndexChanged += LinesComboBox_SelectedIndexChanged;
+            _view.SaveButton.Click += SaveButton_Click;
+            _view.LoadButton.Click += LoadButton_Click;
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            using (var dialog = new SaveFileDialog())
+            {
+                dialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    _model.SaveToFile(dialog.FileName);
+                }
+            }
+        }
+
+        private void LoadButton_Click(object sender, EventArgs e)
+        {
+            using (var dialog = new OpenFileDialog())
+            {
+                dialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    _model.LoadFromFile(dialog.FileName);
+                    _view.PictureBox.Invalidate();
+                }
+            }
         }
 
         private void InitializeView()

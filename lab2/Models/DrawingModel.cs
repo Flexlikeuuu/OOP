@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Xml;
 using lab2.Interfaces;
 using lab2.Models.Shapes;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace lab2.Models
 {
@@ -55,6 +58,59 @@ namespace lab2.Models
             {
                 shape.Draw(graphics);
             }
+        }
+        public void SaveToFile(string filePath)
+        {
+            var shapesData = _shapes.Reverse()
+                .OfType<ISerializableShape>()
+                .Select(s => s.Serialize())
+                .ToList();
+
+            string json = JsonConvert.SerializeObject(shapesData, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(filePath, json);
+        }
+
+        public void LoadFromFile(string filePath)
+        {
+            if (!File.Exists(filePath)) return;
+
+            string json = File.ReadAllText(filePath);
+            var shapesData = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
+
+            if (shapesData == null) return;
+
+            Clear();
+
+            foreach (var shapeData in shapesData)
+            {
+                IShape shape = CreateShapeFromData(shapeData);
+                if (shape != null)
+                {
+                    AddShape(shape);
+                }
+            }
+        }
+
+        private IShape CreateShapeFromData(Dictionary<string, object> data)
+        {
+            if (!data.ContainsKey("Type")) return null;
+
+            IShape shape = null;
+            switch (data["Type"].ToString())
+            {
+                case "Line": shape = new LineShape(); break;
+                case "Rectangle": shape = new RectangleShape(); break;
+                case "Ellipse": shape = new EllipseShape(); break;
+                case "Polyline": shape = new PolylineShape(); break;
+                case "Polygon": shape = new PolygonShape(); break;
+            }
+
+            if (shape is ISerializableShape serializableShape)
+            {
+                serializableShape.Deserialize(data);
+            }
+
+            return shape;
         }
     }
 }

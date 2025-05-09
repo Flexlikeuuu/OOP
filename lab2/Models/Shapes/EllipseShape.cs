@@ -1,10 +1,14 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using lab2.Interfaces;
+using System.Collections.Generic;
 
 namespace lab2.Models.Shapes
 {
     public class EllipseShape : BaseShape
     {
+        public override string Type => "Ellipse";
+
         public override void Draw(Graphics graphics)
         {
             var rect = GetBoundingRectangle();
@@ -20,6 +24,7 @@ namespace lab2.Models.Shapes
                 }
             }
         }
+
         private Rectangle GetBoundingRectangle()
         {
             return new Rectangle(

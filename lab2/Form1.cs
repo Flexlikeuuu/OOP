@@ -55,5 +55,7 @@ namespace lab2
         public Label ThicknessLabel => lblThickness;
         public ColorDialog ColorDialog => colorDialog1;
         public ColorDialog FillColorDialog => colorDialog2;
+        public Button SaveButton => buttonSave; 
+        public Button LoadButton => buttonLoad; 
     }
 }

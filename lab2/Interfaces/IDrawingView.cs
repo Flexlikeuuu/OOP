@@ -17,5 +17,7 @@ namespace lab2.Interfaces
         Label ThicknessLabel { get; }
         ColorDialog ColorDialog { get; }
         ColorDialog FillColorDialog { get; }
+        Button SaveButton { get; }
+        Button LoadButton { get; }
     }
 }

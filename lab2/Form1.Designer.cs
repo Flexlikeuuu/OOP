@@ -44,6 +44,8 @@
             toolStripSeparator2 = new ToolStripSeparator();
             toolStripSeparator3 = new ToolStripSeparator();
             lblThickness = new Label();
+            buttonLoad = new Button();
+            buttonSave = new Button();
             ((System.ComponentModel.ISupportInitialize)trackBarThickness).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxDrawing).BeginInit();
             toolStrip1.SuspendLayout();
@@ -179,11 +181,31 @@
             lblThickness.TabIndex = 11;
             lblThickness.Text = "Толщина: 2 px";
             // 
+            // buttonLoad
+            // 
+            buttonLoad.Location = new Point(713, 13);
+            buttonLoad.Name = "buttonLoad";
+            buttonLoad.Size = new Size(120, 31);
+            buttonLoad.TabIndex = 12;
+            buttonLoad.Text = "Загрузить";
+            buttonLoad.UseVisualStyleBackColor = true;
+            // 
+            // buttonSave
+            // 
+            buttonSave.Location = new Point(839, 12);
+            buttonSave.Name = "buttonSave";
+            buttonSave.Size = new Size(120, 31);
+            buttonSave.TabIndex = 13;
+            buttonSave.Text = "Сохранить";
+            buttonSave.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1212, 600);
+            Controls.Add(buttonSave);
+            Controls.Add(buttonLoad);
             Controls.Add(lblThickness);
             Controls.Add(pictureBoxDrawing);
             Controls.Add(comboBoxLines);
@@ -225,5 +247,7 @@
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripSeparator toolStripSeparator3;
         private Label lblThickness;
+        private Button buttonLoad;
+        private Button buttonSave;
     }
 }

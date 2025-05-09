@@ -21,6 +21,7 @@ Thumbs.db
 
 # Visual Studio Code settings
 .vscode/
+.vs/
 
 # NuGet packages
 *.nupkg
