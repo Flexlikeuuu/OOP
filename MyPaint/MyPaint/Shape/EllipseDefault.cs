@@ -113,7 +113,6 @@ public class EllipseDefault : ShapeAllKinds
             IsHitTestVisible = false,
         };
 
-        // рисовка фигуры
         {
             X1 = x1;
             X2 = x2;

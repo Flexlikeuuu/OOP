@@ -68,24 +68,12 @@ public class PolylineDefault : ShapeAllKinds
         };
     }
 
-    // public override DTOShape GetDTOShape()
-    // {
-    //     return new DTOShape()
-    //     {
-    //         Points = (FigurePtr as Polyline).Points.ToArray(),
-    //         StrokeColor = StrokeColor,
-    //         Type = this.GetType()
-    //     };
-    // }
-
-
     public override void Draw(Canvas canvas)
     {
         FigurePtr = new Polyline()
         {
             IsHitTestVisible = false,
         };
-        // отрисовОчка
         {
             (FigurePtr as Polyline).Points = new PointCollection(points);
             StrokeColor = strokeColor;

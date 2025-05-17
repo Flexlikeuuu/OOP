@@ -29,7 +29,6 @@ public class LineDefault : ShapeAllKinds
         {
             x2 = value;
 
-            // Canvas.SetLeft(FigurePtr, x2 > x1 ? x1 : x2);
             (FigurePtr as Line).X2 = value;
         }
     }
@@ -54,8 +53,6 @@ public class LineDefault : ShapeAllKinds
             y2 = value;
 
             (FigurePtr as Line).Y2 = value;
-            // Canvas.SetTop(FigurePtr, y2 > y1 ? y1 : y2);
-            // FigurePtr.Height = Math.Abs(y2 - y1);
         }
     }
 
@@ -113,7 +110,6 @@ public class LineDefault : ShapeAllKinds
             IsHitTestVisible = false,
         };
 
-        // рисовка фигуры
         {
             X1 = x1;
             X2 = x2;

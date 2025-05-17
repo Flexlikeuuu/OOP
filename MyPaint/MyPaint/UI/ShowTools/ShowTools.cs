@@ -138,7 +138,6 @@ public class ShowTools
             Stroke = new SolidColorBrush(Colors.Black),
             VerticalAlignment = VerticalAlignment.Center,
             HorizontalAlignment = HorizontalAlignment.Center,
-            // Margin = new Thickness(10,0,0,0),
             X1 = 0,
             Y1 = 0,
             X2 = 100,

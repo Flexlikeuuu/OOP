@@ -86,7 +86,6 @@ public class PolygonDefault : ShapeAllKinds
             IsHitTestVisible = false,
         };
 
-        // отрисовОчка
         {
             (FigurePtr as Polygon).Points = new PointCollection(points);
             FillColor = fillColor;

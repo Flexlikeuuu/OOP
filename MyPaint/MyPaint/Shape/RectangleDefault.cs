@@ -107,25 +107,6 @@ public class RectangleDefault : ShapeAllKinds
         };
     }
 
-
-    // public override DTOShape GetDTOShape()
-    // {
-    //     DTOShape dtoShape = new DTOShape()
-    //     {
-    //         FillColor = FillColor,
-    //         Type = this.GetType(),
-    //         StrokeColor = StrokeColor,
-    //         Points = new[] { new Point(X1, Y1), new Point(X2, Y2) },
-    //         StrokeThickness = StrokeThickness
-    //     };
-    //
-    //     return dtoShape;
-    // }
-
-    // public override void DrawOnCanvas(Canvas canvas, DTOShape dtoshape)
-    // {
-    // }
-
     public override void Draw(Canvas canvas)
     {
         FigurePtr = new Rectangle()
@@ -133,7 +114,6 @@ public class RectangleDefault : ShapeAllKinds
             IsHitTestVisible = false,
         };
 
-        // рисовка фигуры
         {
             X1 = x1;
             X2 = x2;
