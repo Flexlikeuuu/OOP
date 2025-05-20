@@ -65,7 +65,7 @@ namespace MyPaint
 
             menuOpenFile.Click += MenuOpenFile_OpenFile;
             menuSaveFile.Click += MenuSaveFile_SaveFile;
-            menuAddPlugin.Click += MenuAddPlugin_AddPlugin;
+            menuAddPlugin.Click += MenuAddPlugin_AddPlugin; 
         }
 
         public void CanvasForDrawing_OnMouseDown(object sender, MouseButtonEventArgs e)
@@ -141,7 +141,7 @@ namespace MyPaint
                     Console.WriteLine($" ошибка открытия файла, вероятно неверный формат файла{exception.Message}");
                     return;
                 }
-                
+
                 ShapesOnCanvas.Clear();
                 ShapesOnCanvas = temp;
                 InformationForDraw.ShapesOnCanvas = ShapesOnCanvas;
@@ -162,7 +162,7 @@ namespace MyPaint
             {
                 Title = "Сохранить как",
                 FileName = "",
-                DefaultExt = ".json", // Можно указать любое расширение
+                DefaultExt = ".json",
                 Filter = "Graph editor (*.json)|*.json"
             };
 
@@ -195,28 +195,23 @@ namespace MyPaint
 
                     foreach (var type in plugin.GetTypes())
                     {
-
                         if (typeof(ShapeAllKinds).IsAssignableFrom(type) && !type.IsAbstract)
                         {
+                            if (showTools.defaultTools.ShapesTools.Contains(type))
+                            {
+                                MessageBox.Show("Этот плагин уже добавлен в программу", "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
+                                return;
+                            }
                             showTools.defaultTools.ShapesTools.Add(type);
                             showTools.AddOneShapeToTools(showTools.defaultTools.ShapesTools.Count - 1);
                         }
                     }
-                    
-                    
                 }
                 catch (Exception exception)
                 {
-                    Console.WriteLine(exception);
-                    throw;
+                    MessageBox.Show($"Ошибка загрузки плагина: {exception.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
-                
-                
             }
-
-
         }
-        
-        
     }
 }
