@@ -5,6 +5,7 @@ using System.Windows.Input;
 using System.Windows.Controls;
 using Microsoft.Win32;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace MyPaint
 {
@@ -138,8 +139,39 @@ namespace MyPaint
                 }
                 catch (JsonException exception)
                 {
-                    Console.WriteLine($" ошибка открытия файла, вероятно неверный формат файла{exception.Message}");
+                    MessageBox.Show($"Ошибка открытия файла: неверный формат файла\n{exception.Message}",
+                                  "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
+                }
+
+                bool hasUnsupportedShapes = false;
+                StringBuilder unsupportedShapes = new StringBuilder();
+
+                foreach (var shape in temp)
+                {
+                    if (shape == null)
+                    {
+                        hasUnsupportedShapes = true;
+                        unsupportedShapes.AppendLine("Неизвестная фигура (null)");
+                        continue;
+                    }
+
+                    Type shapeType = shape.GetType();
+                    if (!showTools.defaultTools.ShapesTools.Contains(shapeType))
+                    {
+                        hasUnsupportedShapes = true;
+                        unsupportedShapes.AppendLine(shapeType.Name);
+                    }
+                }
+
+                if (hasUnsupportedShapes)
+                {
+                    MessageBox.Show($"Файл содержит следующие неподдерживаемые фигуры:\n{unsupportedShapes}\n" +
+                                  "Эти фигуры не будут отображены.",
+                                  "Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+                    temp = temp.Where(shape => shape != null &&
+                           showTools.defaultTools.ShapesTools.Contains(shape.GetType())).ToList();
                 }
 
                 ShapesOnCanvas.Clear();
